@@ -1,8 +1,6 @@
 <template>
   <div>
-    <div v-if="appDeveloperMode" class="section">
-      <AppPlatformDeveloperSettings />
-    </div>
+    <AppPlatformDeveloperSettings />
 
     <div class="section">
       <button class="button button--soft-warning" @click="restoreDefaults">
